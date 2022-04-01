@@ -1,9 +1,7 @@
 # Alos_act2
-## Cette API a été créée pour faciliter le développement d'applications islamiques par les développeurs.
-
-## Les données utilisées dans le développement de cette API présentent plusieurs sources différentes, à la fois des API existantes et des résultats de grattage.
-
-## Cette API a été créée à l'aide d' Express Web Application Framework  que vous pouvez voir dans le fichier package.json.
+Cette API a été créée pour faciliter le développement d'applications islamiques par les développeurs.
+Les données utilisées dans le développement de cette API présentent plusieurs sources différentes, à la fois des API existantes et des résultats de grattage.
+Cette API a été créée à l'aide d' Express Web Application Framework  que vous pouvez voir dans le fichier package.json.
 
 ### Structure du fichier : 
 
