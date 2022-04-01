@@ -5,7 +5,7 @@
 
 ## Cette API a été créée à l'aide d' Express Web Application Framework  que vous pouvez voir dans le fichier package.json.
 
-** Structure du fichier : **
+### Structure du fichier : 
 
 > un fichier package.json, qui va reprendre différentes informations du projet et qui contiendra les dépendances qu'on va y installer.
 
@@ -15,7 +15,7 @@
 
 > un fichier test.js pour  tester notre API avec mocha .
 
-** Définition des ressources de notre Node JS API: **
+### Définition des ressources de notre Node JS API: 
 
 Pour notre api, Nous aurons besoin des fonctionnalités suivantes:
 - Créer un surah
@@ -25,7 +25,7 @@ Pour notre api, Nous aurons besoin des fonctionnalités suivantes:
 - Supprimer un surah
 
 
-** Création des routes: **
+### Création des routes: 
 
  Dans notre api nous aurons besoin des routes suivantes:
 
