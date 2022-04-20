@@ -1,26 +1,24 @@
 {
-  "name": "alos_act2",
+  "name": "ALOS_act2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "test": "mocha",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/SebbarSara27/Alos_act2.git)"
+    "start": "nodemon index.js",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.1",
+    "chai-http": "^4.3.0",
     "express": "^4.17.3",
-    "express-validator": "^6.14.0"
+    "express-validation": "^4.0.1",
+    "express-validator": "^6.14.0",
+    "test": "^0.6.0"
   },
   "devDependencies": {
-    "mocha": "^9.2.2",
-    "nodemon": "^2.0.15"
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
   }
 }
