@@ -162,9 +162,9 @@ describe('Test surahs API', () => {
     /**
      * Test the DELETE surahs
      */
-    describe("DELETE /surahs/:id", () => {
+    describe("DELETE /surahs/:Number", () => {
         it("It should DELETE an existing surahs", (done) => {
-            const newspaperId = 1;
+            const surahsNumber = 1;
             chai.request(server)
                 .delete("/surahs/" + surahs)
                 .end((err, response) => {
@@ -173,12 +173,12 @@ describe('Test surahs API', () => {
                 });
         });
         it("It should NOT DELETE a surahs that is not in the database", (done) => {
-            const surahsNumber = 400;
+            const surahsNumber = 114;
             chai.request(server)
                 .delete("/surahs/" + surahsNumber)
                 .end((err, response) => {
                     response.should.have.status(404);
-                    response.text.should.be.eq("The surahs with the provided ID does not exist.");
+                    response.text.should.be.eq("The surahs with the provided Number does not exist.");
                     done();
                 });
         });
