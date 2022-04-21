@@ -29,7 +29,7 @@ describe('Test surahs API', () => {
         it("It should GET a surah by number", (done) => {//done
             
             chai.request(server)
-                .get("/surah/" + newspaperId)
+                .get("/surah/" + surahNumber)
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');
@@ -125,7 +125,7 @@ describe('Test surahs API', () => {
             };
             chai.request(server)
                 .put("/surahs/" + surahsNumber)
-                .send(newspaper)
+                .send(surah)
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');
