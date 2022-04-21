@@ -99,9 +99,13 @@ describe('Test surahs API', () => {
                             })
                             done();
                         
+            
+                        }
+                    });
                 });
-        });
 
+            });
+      
     });
 
     /**
@@ -109,7 +113,6 @@ describe('Test surahs API', () => {
      */
     describe("PUT /surahs/:surahsNumber", () => {
         it("It should PUT an existing surahs", (done) => {
-            const surahs = 114;
             const surahs = {
                
                 number: 114,
@@ -184,4 +187,3 @@ describe('Test surahs API', () => {
         });
 
     });
-});
